@@ -2,4 +2,4 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-echo 'My Project here =D';
+echo '<h1>My API Project here =D</h1>';

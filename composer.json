@@ -11,7 +11,10 @@
     "scripts": {
         "php-cs": "phpcs ./src",
         "php-cbf": "phpcbf ./src",
-        "test": "phpunit ./tests"
+        "test": "phpunit ./tests",
+        "test-filter": "phpunit ./tests --filter",
+        "test-unit": "phpunit --testsuite unit",
+        "test-integration": "phpunit --testsuite integration"
     },
     "autoload": {
         "psr-4": {
